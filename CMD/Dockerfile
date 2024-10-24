@@ -1,5 +1,5 @@
 FROM almalinux
 
-ping ["facebook.com"]
+CMD ["facebook.com"]
 
 ENTRYPOINT ["ping"]
